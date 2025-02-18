@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Adds rounded corners to the container */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    margin-bottom: 30px;
+    text-align: center; /* Center the upload form */
+}
+
+.upload-form input[type="file"] {
+    width: auto;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.upload-form button {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: #0056b3;
+}
+
+#compare-btn {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+#compare-btn:hover {
+    background-color: #218838;
+}
+
+#results {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px; /* Adds rounded corners to the results section */
+}
+
+.comparison-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+    border-radius: 4px; /* Rounded corners for individual results */
+}
+
+.comparison-item p {
+    margin: 5px 0;
+}
+
+.comparison-item p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.comparison-item p span {
+    color: #007bff; /* Color the similarity percentage in blue */
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Add styles for the error and success messages */
+.error-message, .success-message {
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.error-message {
+    background-color: #f44336; /* Red */
+}
+
+.success-message {
+    background-color: #4CAF50; /* Green */
+}
